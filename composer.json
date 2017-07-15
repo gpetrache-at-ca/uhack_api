@@ -1,0 +1,16 @@
+{
+    "name": "gpetrache-at-ca/uhack_api",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Giovanni Petrache",
+            "email": "giovanni.petrache@codingavenue.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LoanAss\\": "src/"
+        }
+    },
+    "require": {}
+}
