@@ -1,6 +1,6 @@
 <?php
 
-namespace LoanAss\Api;
+namespace UnionBank\Api;
 
 abstract class Api {
     protected $host = 'https://api-uat.unionbankph.com';

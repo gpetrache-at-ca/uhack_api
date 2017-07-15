@@ -1,6 +1,6 @@
 <?php
 
-namespace LoanAss\Api;
+namespace UnionBank\Api;
 
 class Consumer extends Api {
     protected $client_id = 'e568818e-597a-4ba2-9754-393d43944393';

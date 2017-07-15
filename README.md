@@ -6,12 +6,12 @@ Sample Usage
 
 require_once './vendor/autoload.php';
 
-$info_api = new LoanAss\Api\Info();
+$info_api = new UnionBank\Api\Info();
 
 $info_api->getAtms();
 $info_api->getBranches();
 
-$consumer_api = new LoanAss\Api\Consumer();
+$consumer_api = new UnionBank\Api\Consumer();
 
 $term = 72;
 $price = 500000;
@@ -20,7 +20,7 @@ $dp = 10;
 $consumer_api->computeAutoLoan($term, $price, $dp);
 $consumer_api->computeHousingLoan($term, $price, $dp);
 
-$financial_api = new LoanAss\Api\Financial();
+$financial_api = new UnionBank\Api\Financial();
 
 $account1 = $financial_api->createTestAccount("Mark Macaso");
 $account2 = $financial_api->createTestAccount("Leonel Tomes");
