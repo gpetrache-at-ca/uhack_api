@@ -72,7 +72,7 @@ abstract class Api {
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            var_dump([$curl_opts, json_decode($response)]);
+            //var_dump([$curl_opts, json_decode($response)]);
             return json_decode($response);
         }
     }
